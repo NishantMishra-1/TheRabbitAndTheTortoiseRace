@@ -6,7 +6,9 @@
  */
 
 package thread.rabbit;
+
 import javax.swing.*;
+
 public class Rabbit implements Runnable {
 
     private static final int MILESTONES = 5;
