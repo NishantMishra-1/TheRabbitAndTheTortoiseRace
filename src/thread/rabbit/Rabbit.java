@@ -38,7 +38,7 @@ public class Rabbit implements Runnable {
                     System.out.println("The Rabbit has reached the Big Oak Tree!");
                     System.out.println("The Rabbit is leading and hence is going to sleep!");
                     try {
-                        Thread.sleep(7000L);
+                        Thread.sleep(9000L);
                     } catch (InterruptedException e) {
                         System.err.println("The Rabbit's sleep got interrupted!");
                     }
@@ -59,6 +59,5 @@ public class Rabbit implements Runnable {
                 "Rabbit",
                 JOptionPane.OK_CANCEL_OPTION
         );
-
     }
 }
