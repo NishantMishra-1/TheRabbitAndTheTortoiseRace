@@ -7,6 +7,6 @@
 
 package main;
 
-public class race {
+public class Race {
 }
 
